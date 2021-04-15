@@ -348,6 +348,7 @@ ul {
     border-radius: 15vw;
     color: #e37ab0;
     display: flex;
+    justify-content: space-between;
     align-items: center;
   }
   .main__question-content h3 {
@@ -417,7 +418,7 @@ ul {
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 769px) {
   .header {
     margin: 10px 30px;
     display: flex;
@@ -435,6 +436,7 @@ ul {
   .header__menu li {
     padding: 0 10px;
     font-size: 1.2vw;
+    white-space: nowrap;
   }
   .header__menu li a {
     color: #000;
@@ -442,6 +444,7 @@ ul {
   .header__btn {
     border-radius: 10px;
     font-size: 1.2vw;
+    white-space: nowrap;
   }
   .header__btn a {
     color: #fff;
@@ -594,6 +597,10 @@ ul {
     border-radius: 15px;
     box-shadow: 0 0 6px #e37ab0;
     padding: 1%;
+    font-size: 1vw;
+  }
+  .main__feature-content img {
+    width: 100%;
   }
   .main__link {
     padding: 5% 0;
@@ -767,7 +774,8 @@ ul {
     font-weight: bold;
   }
   .arrow-content {
-    margin-left: 55%;
+    margin-left: auto;
+    margin-right: 2%;
     width: 0.5vw;
     height: 0.5vw;
     border-top: 0.1vw solid #000;

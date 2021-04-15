@@ -363,6 +363,7 @@ ul {
         border-radius: 15vw;
         color: $maincolor;
         display: flex;
+        justify-content: space-between;
         align-items: center;
         h3 {
             padding: 5% 0;
@@ -435,7 +436,7 @@ ul {
 }
 
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 769px) {
     .header {
         margin: 10px 30px;
         display: flex;
@@ -452,6 +453,7 @@ ul {
         li {
             padding: 0 10px;
             font-size: 1.2vw;
+            white-space: nowrap;
             a {
                 color: #000;
             }
@@ -460,6 +462,7 @@ ul {
     .header__btn {
         border-radius: 10px;
         font-size: 1.2vw;
+        white-space: nowrap;
         a {
         color: #fff;
         }
@@ -617,6 +620,10 @@ ul {
         border-radius: 15px;
         box-shadow: 0 0 6px $maincolor;
         padding: 1%;
+        font-size: 1vw;
+        img {
+            width: 100%;
+        }
     }
 
     .main__link {
@@ -794,7 +801,8 @@ ul {
         }
     }
     .arrow-content {
-        margin-left: 55%;
+        margin-left: auto;
+        margin-right: 2%;
         width: 0.5vw;
         height: 0.5vw;
         border-top: 0.1vw solid #000;
